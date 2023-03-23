@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandbox</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="shortcut icon" href="src/img/bx-headphone.svg" type="image/x-icon">
+    <script src="src/js/script.js"></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class='bx bx-headphone'></i>Sandbox</a>
+
+        <ul class="nav">
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Teach Specs</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+
+        <div class="header-icons">
+            <i class='bx bx-cart'></i>
+            <div id="menu"><i class='bx bx-menu'></i></div>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="home-img">
+            <img src="src/img/product1.png" class="one">
+        </div>
+
+
+        <div class="home-text">
+            <h1>Wireless <br> Headphones</h1>
+            <h5>The smarter way to listen</h5>
+            <h3>$199.00</h3>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <div class="main">
+        <div class="row">
+            <li><img src="src/img/main1.png" onclick="slider('src/img/product1.png')"></li>
+        </div>
+
+        <div class="row2">
+            <li><img src="src/img/main2.png" onclick="slider('src/img/product2.png')"></li>
+        </div>
+
+        <div class="row3">
+            <li><img src="src/img/main3.png" onclick="slider('src/img/product3.png')"></li>
+        </div>
+    </div>
+
+</body>
+</html>
